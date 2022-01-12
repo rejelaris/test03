@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+  <title>family</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    h1 {
+      color:fuchsia;
+      border-bottom:1px solid black;
+      margin:0px;
+      padding:50px;
+      font-family:휴먼둥근헤드라인;
+      text-align:left;
+    }
+    a{
+      color:black;
+      font-family:돋움;
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      border-right:1px solid;
+      width:80px;
+      padding-top:20px;
+      /*margin:0px;*/
+    }
+    p {
+      padding-left: 50px;
+    }
+    /*.profile
+    {
+      position: relative;
+      width: 50%;
+      border-radius: 50%
+      overflow: hidden;
+    }*/
+    #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+    #grid ul{
+      margin: 0px;
+      padding-left:50px;
+    }
+    #aritcle{
+      padding-left:0px;
+    }
+    #img{
+      padding-left:50px;
+    }
+    @media(max-width:600px){
+     #grid{
+       display:block;
+     }
+       h1{
+         border-bottom:none;
+       }
+       ul{
+         border-right:none;
+         padding-top:0px;
+       }
+     }
+  </style>
+</head>
+  <body>
+   <h1 style="color:pink;"><a href="index.html">다빈이네</a></h1>
+   <div id="grid">
+     <ul>
+       <li><a href="1.html">다빈</a></li>
+       <li><a href="2.html">선아</a></li>
+       <li><a href="3.html">동우</a></li>
+     </ul>
+     <div id="aritcle">
+        <P>
+          롯데월드
+          <!--div class="profile"-->
+          <div id="img">
+            <img src="s1.jpg" width="50%">
+          </div>
+        </p>
+     </div>
+  </div>
+  </body>
+</html>
